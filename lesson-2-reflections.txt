@@ -1,0 +1,14 @@
+Now Lesson 2 Starts So in this Lesson First Command about Creating Repository in your own Computer.
+git init::::::: Create Repository on your own Computer......... it Create .git Hidden folder in Your File or Folder where you apply git init Command.
+git status::::::::: Tells the Currut Status of your Repository. Like Untracked Files, Staged Files etc.
+git add ::::: to add files into staging area from working Directory.
+git reset::::::::::If you accidentally add a file to the staging area,
+you can remove it using '''''git reset''''''''.
+For example, if you accidentally add lesson_2_reflections.txt, 
+but don’t want it to be committed yet, 
+run git reset lesson_2_reflections.txt and the file will be removed from 
+the staging area, but it will still be in your working directory.
+Staging area where you put your files (Called Stsged files) before make a commit
+you can add files simultaneously or one one by or even somefiles after makes some changes.
+git commit:::::::: To make commit in git repository 
+Git add put your files into Staging area from Working Directory, and Git Commit put you files into git Repository As a commit from Staging Area.
