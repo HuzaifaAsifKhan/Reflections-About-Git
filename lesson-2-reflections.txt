@@ -11,4 +11,15 @@ the staging area, but it will still be in your working directory.
 Staging area where you put your files (Called Stsged files) before make a commit
 you can add files simultaneously or one one by or even somefiles after makes some changes.
 git commit:::::::: To make commit in git repository 
-Git add put your files into Staging area from Working Directory, and Git Commit put you files into git Repository As a commit from Staging Area.
+Git add put your files into Staging area from Working Directory, 
+and Git Commit put you files into git Repository As a commit from Staging Area.
+
+git branch::::::: show all tour barnches in your repository
+git branch easy-mode:::::::: Create a new branch Called easy-mode
+git checkout easy-mode::::::: Switch to otherbranch Called easy-mode
+git merge branch1 branch2:::::::::: Merge Branch 2 into Branch 1
+You must be at Branch 1 if you want all changes at Branch 1.
+git log --graph --oneline::::::::::Show Complete Graph at that branch of your commits.
+--graph and --oneline are Flags for git log command.
+git branch -d coins::::::: to delete Coins Braanch Affter Merging or YOu can also delete before merge if you dont need it(after merge only delete label of branch not Whole Branch).
+git show id/shaw:::::::: Show changes with respect to their Parents.
